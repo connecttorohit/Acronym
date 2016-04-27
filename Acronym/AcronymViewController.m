@@ -55,10 +55,9 @@ NSString *const AcronymRepoURL = @"http://www.nactem.ac.uk/software/acromine/dic
 	}
 	
 	return YES;
-	
 }
 
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 	return self.result.meanings.count;
 }
@@ -76,8 +75,8 @@ NSString *const AcronymRepoURL = @"http://www.nactem.ac.uk/software/acromine/dic
 	return cell;
 }
 
--(UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-	
+- (UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
 	static NSString *headerIdentifier = @"Header";
 	UITableViewCell *headerView = [tableView dequeueReusableCellWithIdentifier:headerIdentifier];
 	

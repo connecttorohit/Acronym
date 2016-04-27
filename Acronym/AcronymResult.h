@@ -18,7 +18,7 @@
 @interface AcronymMeaning : NSObject
 
 @property (nonatomic, copy) NSString *meaning;
-@property NSInteger frequency;
-@property NSInteger since;
+@property (nonatomic, assign) NSInteger frequency;
+@property (nonatomic, assign) NSInteger since;
 
 @end
