@@ -39,6 +39,8 @@ NSString *const AcronymRepoURL = @"http://www.nactem.ac.uk/software/acromine/dic
 	[self.acronymResultTableView setHidden:YES];
 }
 
+#pragma mark - Text Field Delegate Methods
+
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {
 	[self resetContent];
@@ -57,6 +59,8 @@ NSString *const AcronymRepoURL = @"http://www.nactem.ac.uk/software/acromine/dic
 	return YES;
 }
 
+#pragma mark - Table View DataSource Methods
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 	return self.result.meanings.count;
@@ -74,6 +78,8 @@ NSString *const AcronymRepoURL = @"http://www.nactem.ac.uk/software/acromine/dic
 	
 	return cell;
 }
+
+#pragma mark - Table View Delegate Methods
 
 - (UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {

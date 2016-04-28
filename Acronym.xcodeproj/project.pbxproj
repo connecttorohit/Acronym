@@ -85,13 +85,13 @@
 			children = (
 				F9F2C3971CC8A0E50095CD65 /* View Controllers */,
 				F9F2C3961CC8A0DA0095CD65 /* Model */,
-				F9F2C3951CC8A0AA0095CD65 /* ExternalLib */,
 				F9F2C3711CC851A80095CD65 /* AppDelegate.h */,
 				F9F2C3721CC851A80095CD65 /* AppDelegate.m */,
 				F9F2C3771CC851A80095CD65 /* Main.storyboard */,
 				F9F2C37A1CC851A80095CD65 /* Assets.xcassets */,
 				F9F2C37C1CC851A80095CD65 /* LaunchScreen.storyboard */,
 				F9F2C37F1CC851A80095CD65 /* Info.plist */,
+				F9F2C3951CC8A0AA0095CD65 /* ExternalLib */,
 				F9F2C36E1CC851A80095CD65 /* Supporting Files */,
 			);
 			path = Acronym;
@@ -363,6 +363,7 @@
 				F9F2C3841CC851A80095CD65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
