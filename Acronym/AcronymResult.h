@@ -20,5 +20,6 @@
 @property (nonatomic, copy) NSString *meaning;
 @property (nonatomic, assign) NSInteger frequency;
 @property (nonatomic, assign) NSInteger since;
+@property (nonatomic,strong) NSMutableArray *variations;
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F92C9C741CD2DFEA0030D504 /* AcronymVariationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92C9C731CD2DFEA0030D504 /* AcronymVariationViewController.m */; };
+		F92C9C781CD2E6480030D504 /* AcronymConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F92C9C771CD2E6480030D504 /* AcronymConstants.m */; };
 		F9F2C3701CC851A80095CD65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F2C36F1CC851A80095CD65 /* main.m */; };
 		F9F2C3731CC851A80095CD65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F2C3721CC851A80095CD65 /* AppDelegate.m */; };
 		F9F2C3791CC851A80095CD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F2C3771CC851A80095CD65 /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F92C9C721CD2DFEA0030D504 /* AcronymVariationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcronymVariationViewController.h; sourceTree = "<group>"; };
+		F92C9C731CD2DFEA0030D504 /* AcronymVariationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcronymVariationViewController.m; sourceTree = "<group>"; };
+		F92C9C761CD2E6480030D504 /* AcronymConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcronymConstants.h; sourceTree = "<group>"; };
+		F92C9C771CD2E6480030D504 /* AcronymConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcronymConstants.m; sourceTree = "<group>"; };
 		F9F2C36B1CC851A80095CD65 /* Acronym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acronym.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F2C36F1CC851A80095CD65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9F2C3711CC851A80095CD65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F92C9C751CD2E6050030D504 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F92C9C761CD2E6480030D504 /* AcronymConstants.h */,
+				F92C9C771CD2E6480030D504 /* AcronymConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
 		F9F2C3621CC851A80095CD65 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +102,7 @@
 				F9F2C3961CC8A0DA0095CD65 /* Model */,
 				F9F2C3711CC851A80095CD65 /* AppDelegate.h */,
 				F9F2C3721CC851A80095CD65 /* AppDelegate.m */,
+				F92C9C751CD2E6050030D504 /* Constants */,
 				F9F2C3771CC851A80095CD65 /* Main.storyboard */,
 				F9F2C37A1CC851A80095CD65 /* Assets.xcassets */,
 				F9F2C37C1CC851A80095CD65 /* LaunchScreen.storyboard */,
@@ -128,6 +144,8 @@
 			children = (
 				F9F2C3851CC856EE0095CD65 /* AcronymViewController.h */,
 				F9F2C3861CC856EE0095CD65 /* AcronymViewController.m */,
+				F92C9C721CD2DFEA0030D504 /* AcronymVariationViewController.h */,
+				F92C9C731CD2DFEA0030D504 /* AcronymVariationViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -204,6 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9F2C3731CC851A80095CD65 /* AppDelegate.m in Sources */,
+				F92C9C781CD2E6480030D504 /* AcronymConstants.m in Sources */,
+				F92C9C741CD2DFEA0030D504 /* AcronymVariationViewController.m in Sources */,
 				F9F2C3701CC851A80095CD65 /* main.m in Sources */,
 				F9F2C39A1CC8CC2F0095CD65 /* AcronymResult.m in Sources */,
 				F9F2C3871CC856EE0095CD65 /* AcronymViewController.m in Sources */,
